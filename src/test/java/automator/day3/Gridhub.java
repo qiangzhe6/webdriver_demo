@@ -25,7 +25,7 @@ public class Gridhub {
     public void testData(String url,String browser) throws MalformedURLException, InterruptedException {
        DesiredCapabilities desiredCapabilities;
         if (browser=="chrome"){
-            desiredCapabilities=DesiredCapabilities.chrome();
+            desiredCapabilities=DesiredCapabilities.chrome();3
         }else if(browser=="firefox"){
             desiredCapabilities=DesiredCapabilities.firefox();
         }else {

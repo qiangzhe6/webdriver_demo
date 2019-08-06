@@ -19,7 +19,7 @@ public class JSTest {
         driver.get("https://www.baidu.com");
         JavascriptExecutor js=(JavascriptExecutor)driver;
         //直接在下面操作value的值，执行js脚本,在id为search=key的地方把value的值输入“selenium怎么学”
-        js.executeScript("document.getElementById(\"kw\").setAttribute(\"value\",\"selenium怎么学\")");
+        js.executeScript("document.getElementById(\"u\").setAttribute(\"value\",\"591158309\")");
        Thread.sleep(5000);
         driver.quit();
     }
